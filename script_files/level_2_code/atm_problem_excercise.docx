@@ -1,0 +1,33 @@
+📝 Problem Statement: Simple ATM System
+
+Design a Python program that simulates a basic ATM machine.
+
+Requirements:
+
+PIN Verification
+
+The system should ask the user to enter their ATM PIN.
+
+If the PIN is correct (e.g., "1234"), allow access.
+
+If the PIN is incorrect, display "Wrong PIN. Exiting..." and stop the program.
+
+Menu Options (should repeat until the user chooses Exit):
+
+1 → Check Balance → Display the current balance.
+
+2 → Deposit Money → Ask for deposit amount, add it to balance, and show new balance.
+
+3 → Withdraw Money → Ask for withdrawal amount:
+
+If amount > balance → show "Insufficient balance!"
+
+Else deduct amount and show new balance.
+
+4 → Exit → End the program with "Thank you for using Python ATM. Goodbye!"
+
+Initial Balance → Start with ₹1000 by default.
+
+Loop Behavior → The menu should keep showing until the user selects Exit.
+
+👉 This mini project helps practice loops, conditions, user input, arithmetic operations, and break/continue usage.
